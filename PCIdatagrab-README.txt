@@ -13,4 +13,4 @@ Once ran the script will create txt files to the specified directory.
 
 **If you wish to save these text files in another directory please change in code**
 
-Created by Versprite Team 2016
+Created by VerSprite Team 2016
