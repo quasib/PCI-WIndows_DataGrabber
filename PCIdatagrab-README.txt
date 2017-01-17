@@ -6,7 +6,8 @@ Application List - applications installed on the system along with version.
 Service List - current services running on that system.
 Process List - currrent processes running on that system.
 Local Users List - List of all Users locally on that system (only includes users with account status OK, excludes Degrated)
-**Active Directory User List - This only produces data from the imported AD data and it is filtered for the following properties; PasswordExpired, PasswordLastSet, PasswordNeverExpires)
+Active Directory User List - This only produces data from the imported AD data and it is filtered for the following properties;   PasswordExpired, PasswordLastSet, PasswordNeverExpires)
+Open Ports - Netstat info showing open ports on the system.
 
 Once ran the script will create txt files to the specified directory.
 
