@@ -15,3 +15,6 @@ Start-Transcript -Path "C:\Desktop\PCI_ADUserList.txt"
 Import-Module activedirectory
 Get-ADUser tuser -properties PasswordExpired, PasswordLastSet, PasswordNeverExpires
 stop-transcript
+Start-Transcript -Path "C:\Desktop\PCI_OpenPorts.txt"
+netstat
+stop-transcript
